@@ -15,6 +15,10 @@
   The real Johto, with its maps, music, dialogue and animations, lit like Octopath Traveler.
 </p>
 
+<p align="center">
+  <img src=".github/hooh.gif" alt="Ho-Oh in flight, from the HeartGold title screen" width="640">
+</p>
+
 <p align="center"><i>⭐ Star the repo to follow development and get notified of the first release.</i></p>
 
 ---
