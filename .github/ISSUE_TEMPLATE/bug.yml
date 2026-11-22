@@ -1,0 +1,34 @@
+name: Bug report / Signaler un bug
+description: Something doesn't work or doesn't look like the original game. / Quelque chose ne marche pas ou ne ressemble pas au jeu d'origine.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Never attach a ROM, a save file or extracted game files.** / **Ne joins jamais de ROM, de sauvegarde ni de fichiers du jeu.**
+  - type: input
+    id: version
+    attributes:
+      label: Game version / Version du jeu
+      placeholder: v0.1.0
+    validations:
+      required: true
+  - type: input
+    id: machine
+    attributes:
+      label: Machine (model, OS) / Machine (modèle, système)
+      placeholder: MacBook Air M2, macOS 15.2
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where in the game? / À quel endroit du jeu ?
+      placeholder: Route 29, just west of New Bark Town
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect? / Ce qui s'est passé, et ce que tu attendais
+      description: Steps to reproduce help a lot. / Les étapes pour le reproduire aident beaucoup.
+    validations:
+      required: true
